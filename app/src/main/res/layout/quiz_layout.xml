@@ -12,13 +12,16 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <TextView
+
+    <GridView
+        android:id="@+id/GridView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1 question: you like  coffe?"
-        android:textSize="30dp"
-        android:drawableLeft=""
-        />
+        android:background="#4286f7"
+        android:horizontalSpacing="1dp"
+        android:numColumns="1"
+        android:verticalSpacing="1dp">
+    </GridView>
 
 </LinearLayout>
 </LinearLayout>
